@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+
+<h2>External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p> 
+
+
+
+<button onmouseover="layDate()">The time is?</button> 
+
+<script>
+function layDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+  
+<p onclick="this.innerHTML='GOOD JOB!'">Click me.</p> 
+    
+<p onclick="this.style.color='blue'">blue</p>     
+    
+    
+<script src="main.js"></script>
+</body>
+</html>
